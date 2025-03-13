@@ -1,0 +1,9 @@
+model:
+  model_name: "svc"  # Choose from: logistic_regression, random_forest, svc, genai, multinomialNB, xgb
+  fine_tuning: false  # Set to true if you want to enable hyperparameter tuning
+
+feature_engineering:
+  method: "word2vec"  # Choose from: bow, word2vec
+
+experiment_tracking:
+  enable_tracking: True  # Set to false to disable MLflow logging
